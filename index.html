@@ -8,15 +8,28 @@
 <body>
     <h1>Rock paper scissors Game</h1>
     <div class="choices">
-        <div class="choice">
+        <div class="choice" id="rock">
             <img src="./img/rock.jpg" alt="Rock" id="rock">
         </div>
-        <div class="choice">
+        <div class="choice" id="paper">
             <img src="./img/paper.png" alt="Paper" id="paper">
         </div>
-        <div class="choice">
+        <div class="choice" id="scissors">
             <img src="./img/scissors.jpg" alt="Scissors" id="scissors">
         </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="computer-score">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Make your move!</p>
     </div>
 </body>
 </html>
